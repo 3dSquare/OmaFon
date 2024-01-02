@@ -219,32 +219,36 @@ The SIM contract being paid monthly, is excluded from this list.
 
 # FAQ
 
-***Q:** Why is it called **Oma**Fon and not something more generic to include all genders?! Are you sexist?*
+> ***Q:** Why is it called **Oma**Fon and not something more generic to include > all genders?! Are you sexist?*
+> 
+> A: Yes.
 
-A: Yes.
+> ***Q:** No, really?*
+> 
+> A: My wife's grandmother happens to be a woman for whom this was created.
 
-***Q:** No, really?*
+> ***Q:** Grandmother always pulls the power plug after turning off the TV. The > computer is plugged into a different power outlet and yet it always changes > the resolution when the TV is turned on. How to fix this?*
+> 
+> A: Tell her to stop doing that.
+> 
+> If that does not help, then you will have to make the OS always stick to the > same resolution. In my case, the OS is using X as the display server and the > following steps fixed the issue:
+> 1. `sudo nano /etc/X11/xorg.conf`
+> 2. Paste the following:
+>     ```
+>     Section "Screen"
+>         Identifier    "Default Screen"
+>         Monitor        "Configured Monitor"
+>         Device        "Configured Video Device"
+>         DefaultDepth    24
+>         SubSection "Display"
+>             Depth    24
+>             Modes     "1280x720" "1024x768"
+>         EndSubSection
+>     EndSection 
+>     ```
+> 3. Save and close the file
+> 4. Reboot the machine
 
-A: My wife's grandmother happens to be a woman for whom this was created.
-
-***Q:** Grandmother always pulls the power plug after turning off the TV. The computer is plugged into a different power outlet and yet it always changes the resolution when the TV is turned on. How to fix this?*
-
-A: Tell her to stop doing that.
-
-If that does not help, then you will have to make the OS always stick to the same resolution. In my case, the OS is using X as the display server and the following steps fixed the issue:
-1. `sudo nano /etc/X11/xorg.conf`
-2. Paste the following:
-    ```
-    Section "Screen"
-        Identifier    "Default Screen"
-        Monitor        "Configured Monitor"
-        Device        "Configured Video Device"
-        DefaultDepth    24
-        SubSection "Display"
-            Depth    24
-            Modes     "1280x720" "1024x768"
-        EndSubSection
-    EndSection 
-    ```
-3. Save and close the file
-4. Reboot the machine
+> ***Q:** What are you going to do with the second HP t610?*
+> 
+> A: Not sure yet. Do you happen to need one to build an OmaFon?
