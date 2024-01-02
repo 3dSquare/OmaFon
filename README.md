@@ -97,7 +97,7 @@ The most important criteria for the modem was that it is not locked=in to a vend
 
 If you live in a society that has more than it needs, you will inevitably end up selling some of your stuff or even giving away the things you no longer require. Sometimes you are not quite aware of the fact that you have things lying around that you no longer make use of. Being in a chat group for bartering, where people exchange stuff they no longer need, is a good alternative to putting those things in online markets and dealing with incoherent requests by potential buyers.
 
-Such was the place where my wife asked for a 4G modem and funnily enough, somebody had just the very same Alcatel HH40V I had my eye on. He wanted to give the modem away anyway and wanted at most a six-pack for it, and I had beers at home from the last party.
+Such was the place where my wife asked for a 4G modem and funnily enough, somebody had just the very same model of Alcatel HH40V I had my eye on. He wanted to give the modem away anyway and wanted at most a six-pack for it, and I had beers at home from the last party.
 
 ![High five!](https://media.giphy.com/media/l0ErFafpUCQTQFMSk/giphy.gif)
 
