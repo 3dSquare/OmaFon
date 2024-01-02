@@ -211,7 +211,7 @@ Merry christmas, Oma!
 |Computer|15|
 |Webcam|9|
 |DP to HDMI cable|10|
-|Modem|-|
+|Modem|How much does a six-pack cost?|
 |Ethernet cable|I have a few always lying around|
 |**Total**|34|
 
