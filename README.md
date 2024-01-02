@@ -42,9 +42,9 @@ Though, the user in this case might have to be comfortable enough to handle such
 
 A Raspberry Pi would have been a good hit if it weren't for two things:
 * It needs to be a simple looking device where the on-off button can be spotted easily
-  * Raspberry Pi model 5 is the first one to have a power button
-* Easily accessible and replaceable in case it breaks down or 
-  * Raspberry Pi models were difficult to come by in the recent past due to little availability
+  * Raspberry Pi model 5 is the first one to have a power button
+* Easily accessible and replaceable in case it breaks down or its processing power does not suffice the needs of grandmother
+  * Raspberry Pi models were difficult to come by in the recent past due to little availability
 
 Additionally, the price should be fairly low for this kind of undertaking. The computer does not have to do too much of a heavy lifting, as it is only supposed to be able to handle video calls.
 
