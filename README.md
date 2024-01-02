@@ -2,7 +2,7 @@
 
 *OmaFon* is the project name for a video communication device that does not require any input from its user. The user being primarily elderly folk that cannot be bothered to learn the ways of WhatsApp and Skype on smartphones and possibly have difficulties operating mobile phones designed for older users.
 
-*Oma* from the German word for grandmother and *Fon* being short for the German word *Telefon*. The English title can be thought of as **GrammyPhone**.
+*Oma* from the German word for grandmother and *Fon* being short for the German word *Telefon*. The English title can be thought of as **GrannyPhone**.
 
 # Project description
 
@@ -75,7 +75,7 @@ The [Trust Trino HD](https://www.amazon.de/dp/B0093LON9Q?ref=ppx_yo2ov_dt_b_prod
 
 ## Audio/Video
 
-The simplest yet: [DP to HDMI cable](https://www.amazon.de/dp/B0BWPZRPY7?psc=1&ref=ppx_yo2ov_dt_b_product_details) for 10€ on Amazon.
+The simplest yet: [DP to HDMI cable](https://www.amazon.de/dp/B0BWPZRPY7?psc=1&ref=ppx_yo2ov_dt_b_product_details) for €10 on Amazon.
 
 Both, audio and video, are played through the TV, so no additional speakers are necessary. Having the audio also come out through the TV, allows the user to finely tune the volume with the same buttons on the remote they are used to anyway.
 
@@ -150,7 +150,7 @@ Skype should now be ready to go. Make sure you are one of the contacts and give 
 
 Seeing as this device is going to be deployed to a remote location, a form of remote administration is required. Such a tool also brings yet another bonus into play of being able to use the TV screen to show photos!
 
-1. Download the latest release of [RustDesk](https://github.com/rustdesk/rustdesk/releases) with the name ending in `x86_64.deb`
+1. Download the latest release of [RustDesk](https://github.com/rustdesk/rustdesk/releases), the file with the name ending in `x86_64.deb`
 2. Install the package: `sudo dpkg -i rustdesk-*x86_64.deb`
 3. This may give you the hint, that the installation had issues due to missing dependencies. To install those missing dependencies, simply run: `sudo apt-get -f install`
 4. Once RustDesk is installed, run and go settings by clicking on the pen next to the one-time password
