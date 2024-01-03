@@ -10,7 +10,7 @@ Any kind of device that can be used to make a video call with the user that does
 
 ## Why build such a device?
 
-*Oma* lives around 180 km away. Visiting her takes the whole day, and we try to get around it once a month, but it is still too infrequent. Having a car that breaks down every so often does not help the case either. Having the ability for visual communication helps everybody sleep better, knowing she is well up, and makes virtual visits possible more often.
+*Oma* lives around 180 km away. Visiting her takes the whole day, and we try to get around it once a month, but it is still too infrequent. Having the ability for visual communication helps everybody sleep better, knowing she is well up, and makes virtual visits possible more often.
 
 A digital screen that can be used to show pictures from travels or parties is a bonus.
 
@@ -68,8 +68,8 @@ Hopefully enough power to run a Linux distro and Skype!
 Many webcams come with an integrated microphone. This simplifies the hardware set up. The two primary topics to keep in mind when selecting the webcam are:
 1. Compatibility with the OS: Should be checked beforehand to make sure you are not buying a piece of hardware that cannot be used
 2. The image quality it produces should not bring down the upstream network connection
-    * A 720p camera produces 720p quality at most, while a 1080p camera might look better but might lead to worse performance during the calls via the mobile network
-    * Higher resolution requires more bandwidth and if Skype or any other videotelephony app is not capable to provide it, the audio/video synchronisation goes awry and requires more processing to reduce the image quality on the sending side (i.e., the *OmaFon*) to keep A/V synchronised
+   * A 720p camera produces 720p quality at most, while a 1080p camera might look better but might lead to worse performance during the calls via the mobile network
+   * Higher resolution requires more bandwidth and if Skype or any other videotelephony app is not capable to provide it, the audio/video synchronisation goes awry and requires more processing to reduce the image quality on the sending side (i.e., the *OmaFon*) to keep A/V synchronised
 
 The [Trust Trino HD](https://www.amazon.de/dp/B0093LON9Q?ref=ppx_yo2ov_dt_b_product_details&th=1) was on sale on Amazon at the time of putting together the set-up. A little digging through the [internet confirmed](https://www.spinics.net/lists/linux-media/msg183265.html) that the camera and microphone would work without problems.
 
@@ -81,7 +81,7 @@ Both, audio and video, are played through the TV, so no additional speakers are 
 
 ## Internet Connection
 
-If an internet connection is available, this section can be skipped. Some may be lucky in enough to live in a city where there is a Wi-Fi hotspot, or maybe a nice neighbour allows grammy to connect the client to their Wi-Fi access point for a plate of cookies every month.
+If an internet connection is available, this section can be skipped. Some may be lucky in enough to live in a city where there is a Wi-Fi hotspot, or maybe a nice neighbour allows granny to connect the client to their Wi-Fi access point for a plate of cookies every month.
 
 In that case, a Wi-Fi adapter should be considered if the computer of choice does not come with an integrated one.
 
@@ -93,7 +93,7 @@ I had tested the internet connectivity on my phone and was able to reach over 70
 
 Once more, I hit up the local online market to check out 4G modems and came across a much promising model, Alcatel HH40V. These were listed for about €15-25. The closer people live to the city, the more expensive the offers.
 
-The most important criteria for the modem was that it is not locked=in to a vendor! Otherwise, you have to either use a SIM card of that vendor or go through flashing the firmware or otherwise unlocking the device.
+The most important criteria for the modem was that it is not locked-in to a vendor! Otherwise, you have to either use a SIM card of that vendor or go through flashing the firmware or otherwise unlocking the device.
 
 If you live in a society that has more than it needs, you will inevitably end up selling some of your stuff or even giving away the things you no longer require. Sometimes you are not quite aware of the fact that you have things lying around that you no longer make use of. Being in a chat group for bartering, where people exchange stuff they no longer need, is a good alternative to putting those things in online markets and dealing with incoherent requests by potential buyers.
 
@@ -219,7 +219,7 @@ The SIM contract being paid monthly, is excluded from this list.
 
 # FAQ
 
-> ***Q:** Why is it called **Oma**Fon and not something more generic to include > all genders?! Are you sexist?*
+> ***Q:** Why is it called **Oma**Fon and not something more generic to include all genders?! Are you sexist?*
 > 
 > A: Yes.
 
@@ -227,14 +227,14 @@ The SIM contract being paid monthly, is excluded from this list.
 > 
 > A: My wife's grandmother happens to be a woman for whom this was created.
 
-> ***Q:** Grandmother always pulls the power plug after turning off the TV. The > computer is plugged into a different power outlet and yet it always changes > the resolution when the TV is turned on. How to fix this?*
+> ***Q:** Grandmother always pulls the power plug after turning off the TV. The computer is plugged into a different power outlet and yet it always changes the resolution when the TV is turned on. How to fix this?*
 > 
 > A: Tell her to stop doing that.
 > 
-> If that does not help, then you will have to make the OS always stick to the > same resolution. In my case, the OS is using X as the display server and the > following steps fixed the issue:
+> If that does not help, then you will have to make the OS always stick to the same resolution. In my case, the OS is using X as the display server and the following steps fixed the issue:
 > 1. `sudo nano /etc/X11/xorg.conf`
 > 2. Paste the following:
->     ```
+>     ```bash
 >     Section "Screen"
 >         Identifier    "Default Screen"
 >         Monitor        "Configured Monitor"
