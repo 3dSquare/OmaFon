@@ -1,5 +1,7 @@
 # OmaFon
 
+> **_NOTE:_**  The method outline in this document is deprecated, due to Skype no longer being available. An alternative exists, in which one can set up any powerful enough device to run MS Teams, or an alternative therof, and use RustDesk to control the client. I have not found an alternative to Skype that allows it to be configured to do pick up automatically for contacts.
+
 *OmaFon* is the project name for a video communication device that does not require any input from its user. The user being primarily elderly folk that cannot be bothered to learn the ways of WhatsApp and Skype on smartphones and possibly have difficulties operating mobile phones designed for older users.
 
 *Oma* from the German word for grandmother and *Fon* being short for the German word *Telefon*. The English title can be thought of as **GrannyPhone**.
